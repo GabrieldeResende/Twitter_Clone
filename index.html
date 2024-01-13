@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maratona Twitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="cabecalho">
+            <figure class="cabecalho__logo">
+                <img src="assets/bird 1.svg" alt="">
+            </figure>
+
+            <nav class="cabecalho__menuNavegacao">
+                <ul class="cabecalho__MenuLista">
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Home.png" alt="">
+                        <a href="#">Pagina Inicial</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Hashtag.png" alt="">
+                        <a href="#">Explorar</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Notification.png" alt="">
+                        <a href="#">Notificação</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Group.png" alt="">
+                        <a href="#">Mensagens</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Group (1).png" alt="">
+                        <a href="#">Itens Salvos</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Group (2).png" alt="">
+                        <a href="#">Listas</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/ProfilePic (1).png" alt="">
+                        <a href="#">Perfil</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="assets/Group (3).png" alt="">
+                        <a href="#">Mais</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="conteudoPrincipal">
+            <h2 class="conteudoPrincipal__titulo">Home</h2>
+            <form action="#" class="conteudoPrincipal__formulario">
+                <textarea name="textoTweet" placeholder="O que está acontecendo?"></textarea>
+                <button type="submit">Tweetar</button>
+            </form>
+
+            <section class="conteudoPrincipal__feed">
+                <ul class="conteudoPrincipal__listaTweets">
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="assets/ProfilePic (1).png" alt="">
+                        <div class="tweet_conteudo">
+                            <h2>Daniela</h2>
+                            <span>@Danielaalgumacoisa 14s</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed autem sequi asperiores,
+                                quibusdam minima eum voluptate dolor optio ut cum mollitia laborum totam eligendi vitae
+                                perspiciatis quo aliquam, qui laboriosam.</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="assets/ProfilePic (2).png" alt="">
+                        <div class="tweet_conteudo">
+                            <h2>Rodrigo</h2>
+                            <span>@Rodrigoalgumacoisa 14s</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed autem sequi asperiores,
+                                quibusdam minima eum voluptate dolor optio ut cum mollitia laborum totam eligendi vitae
+                                perspiciatis quo aliquam, qui laboriosam.</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="assets/ProfilePic.png" alt="">
+                        <div class="tweet_conteudo">
+                            <h2>Damião</h2>
+                            <span>@Damiaolgumacoisa 14s</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed autem sequi asperiores,
+                                quibusdam minima eum voluptate dolor optio ut cum mollitia laborum totam eligendi vitae
+                                perspiciatis quo aliquam, qui laboriosam.</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
